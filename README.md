@@ -1,6 +1,6 @@
-# sevendays
+# Sevendays Challange
 
-A new Flutter project.
+The challange build flutter project with design from figma.
 
 ## Getting Started
 
