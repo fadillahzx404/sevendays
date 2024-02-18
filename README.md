@@ -15,3 +15,11 @@ Home screen page build by myself to easier anyone won't test my app. on Home scr
 ![Screenshot_1708295771](https://github.com/fadillahzx404/sevendays/assets/76970535/c2e45fa6-e4b5-473c-920a-422ff1573a71)
 
 
+### link apps To testing.
+You can testing the app to get more experience and share if you have critism.
+
+link testing: https://appdistribution.firebase.dev/i/a2e800b99b762d6e
+
+are you not understand to test the app follow this link https://firebase.google.com/docs/app-distribution/get-set-up-as-a-tester?hl=id&platform=ios to get set up as a tester with App Distribution.
+
+Thanks you for your time to see my project see you !!
