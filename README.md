@@ -20,13 +20,11 @@ are you not understand to test the app follow this link https://firebase.google.
 HomeScreen
 <p float="left">
   <img src="https://github.com/fadillahzx404/sevendays/assets/76970535/6c2f13fd-edbf-4a7e-a1f9-a9ccb76fd218" width=250 />
-  <img src="https://github.com/fadillahzx404/sevendays/assets/76970535/6c2f13fd-edbf-4a7e-a1f9-a9ccb76fd218" width=250 />
-  <img src="https://github.com/fadillahzx404/sevendays/assets/76970535/6c2f13fd-edbf-4a7e-a1f9-a9ccb76fd218" width=250 />
-  <img src="https://github.com/fadillahzx404/sevendays/assets/76970535/6c2f13fd-edbf-4a7e-a1f9-a9ccb76fd218" width=250 />
+  <img src="https://github.com/fadillahzx404/sevendays/assets/76970535/a4d78d77-0fde-4e07-b25a-ed3a549b580d" width=250 />
+  <img src="https://github.com/fadillahzx404/sevendays/assets/76970535/898f0913-1406-4ef1-b9a4-aacd2cf95270" width=250 />
+  <img src="https://github.com/fadillahzx404/sevendays/assets/76970535/cca25541-6376-4ae9-8b47-a6d3706856de" width=250 />
   <img src="https://github.com/fadillahzx404/sevendays/assets/76970535/6c2f13fd-edbf-4a7e-a1f9-a9ccb76fd218" width=250 />
   <img src="https://github.com/fadillahzx404/sevendays/assets/76970535/6c2f13fd-edbf-4a7e-a1f9-a9ccb76fd218" width=250 />
 </p>
-
-
 
 Thanks you for your time to see my project see you !!
