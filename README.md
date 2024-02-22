@@ -28,8 +28,12 @@ are you not understand to test the app follow this link https://firebase.google.
   <img src="https://github.com/fadillahzx404/sevendays/assets/76970535/c90ef0a3-a63c-48bc-b643-8c2d6c0bec46" width=250 />
   <img src="https://github.com/fadillahzx404/sevendays/assets/76970535/d49b3e3e-ffd5-45a5-be21-e3c0f870fa41" width=250 />
   <img src="https://github.com/fadillahzx404/sevendays/assets/76970535/1d5debb6-3ee1-4373-a102-ea9ed85d2cf1" width=250 />
+  <img src="https://github.com/fadillahzx404/sevendays/assets/76970535/a2d84aec-076c-43f9-868f-4754b41b5faa" width=250 />
+  <img src="https://github.com/fadillahzx404/sevendays/assets/76970535/7e86ee7f-e5a4-4929-93e5-e4c20c0efac6" width=250 />
+  <img src="https://github.com/fadillahzx404/sevendays/assets/76970535/15d6c558-91ab-4168-964b-b60619a417b1" width=250 />
+  <img src="https://github.com/fadillahzx404/sevendays/assets/76970535/88fad598-9bff-49fe-a3f7-2cb8e9bdbc6f" width=250 />
+  <img src="https://github.com/fadillahzx404/sevendays/assets/76970535/15d6c558-91ab-4168-964b-b60619a417b1" width=250 />
 </p>
-
 
 
 
