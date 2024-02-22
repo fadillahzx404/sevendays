@@ -8,18 +8,18 @@ This project is a starting point for a Flutter application. And this project bui
 
 Home screen page build by myself to easier anyone won't test my app. on Home screen page have multiple button on the list of page you can free to selected and view the page yo want.
 
-### Preview Apps
-
-![Screenshot_1708295728](https://github.com/fadillahzx404/sevendays/assets/76970535/6c2f13fd-edbf-4a7e-a1f9-a9ccb76fd218)
-![Screenshot_1708295762](https://github.com/fadillahzx404/sevendays/assets/76970535/ad4bf2b3-7dac-4c77-a833-84b7a69505d6)
-![Screenshot_1708295771](https://github.com/fadillahzx404/sevendays/assets/76970535/c2e45fa6-e4b5-473c-920a-422ff1573a71)
-
-
 ### link apps To testing.
 You can testing the app to get more experience and share if you have critism.
 
 link testing: https://appdistribution.firebase.dev/i/a2e800b99b762d6e
 
 are you not understand to test the app follow this link https://firebase.google.com/docs/app-distribution/get-set-up-as-a-tester?hl=id&platform=ios to get set up as a tester with App Distribution.
+
+### Preview Apps
+<p float="left">
+  <img src="https://github.com/fadillahzx404/sevendays/assets/76970535/6c2f13fd-edbf-4a7e-a1f9-a9ccb76fd218" width=250 />
+  <img src="https://github.com/fadillahzx404/sevendays/assets/76970535/6c2f13fd-edbf-4a7e-a1f9-a9ccb76fd218" width=250 />
+  <img src="https://github.com/fadillahzx404/sevendays/assets/76970535/6c2f13fd-edbf-4a7e-a1f9-a9ccb76fd218" width=250 />
+</p>
 
 Thanks you for your time to see my project see you !!
