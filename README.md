@@ -16,10 +16,17 @@ link testing: https://appdistribution.firebase.dev/i/a2e800b99b762d6e
 are you not understand to test the app follow this link https://firebase.google.com/docs/app-distribution/get-set-up-as-a-tester?hl=id&platform=ios to get set up as a tester with App Distribution.
 
 ### Preview Apps
+
+HomeScreen
 <p float="left">
   <img src="https://github.com/fadillahzx404/sevendays/assets/76970535/6c2f13fd-edbf-4a7e-a1f9-a9ccb76fd218" width=250 />
   <img src="https://github.com/fadillahzx404/sevendays/assets/76970535/6c2f13fd-edbf-4a7e-a1f9-a9ccb76fd218" width=250 />
   <img src="https://github.com/fadillahzx404/sevendays/assets/76970535/6c2f13fd-edbf-4a7e-a1f9-a9ccb76fd218" width=250 />
+  <img src="https://github.com/fadillahzx404/sevendays/assets/76970535/6c2f13fd-edbf-4a7e-a1f9-a9ccb76fd218" width=250 />
+  <img src="https://github.com/fadillahzx404/sevendays/assets/76970535/6c2f13fd-edbf-4a7e-a1f9-a9ccb76fd218" width=250 />
+  <img src="https://github.com/fadillahzx404/sevendays/assets/76970535/6c2f13fd-edbf-4a7e-a1f9-a9ccb76fd218" width=250 />
 </p>
+
+
 
 Thanks you for your time to see my project see you !!
