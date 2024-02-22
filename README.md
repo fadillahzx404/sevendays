@@ -26,8 +26,8 @@ are you not understand to test the app follow this link https://firebase.google.
   <img src="https://github.com/fadillahzx404/sevendays/assets/76970535/7dda81f2-1163-4717-b790-c931360fb004" width=250 />
   <img src="https://github.com/fadillahzx404/sevendays/assets/76970535/85649256-ac09-4b04-b2f8-9608ce42b4b3" width=250 />
   <img src="https://github.com/fadillahzx404/sevendays/assets/76970535/c90ef0a3-a63c-48bc-b643-8c2d6c0bec46" width=250 />
-  <img src="https://github.com/fadillahzx404/sevendays/assets/76970535/7dda81f2-1163-4717-b790-c931360fb004" width=250 />
-  <img src="https://github.com/fadillahzx404/sevendays/assets/76970535/7dda81f2-1163-4717-b790-c931360fb004" width=250 />
+  <img src="https://github.com/fadillahzx404/sevendays/assets/76970535/d49b3e3e-ffd5-45a5-be21-e3c0f870fa41" width=250 />
+  <img src="https://github.com/fadillahzx404/sevendays/assets/76970535/1d5debb6-3ee1-4373-a102-ea9ed85d2cf1" width=250 />
 </p>
 
 
