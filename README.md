@@ -32,9 +32,8 @@ are you not understand to test the app follow this link https://firebase.google.
   <img src="https://github.com/fadillahzx404/sevendays/assets/76970535/7e86ee7f-e5a4-4929-93e5-e4c20c0efac6" width=250 />
   <img src="https://github.com/fadillahzx404/sevendays/assets/76970535/15d6c558-91ab-4168-964b-b60619a417b1" width=250 />
   <img src="https://github.com/fadillahzx404/sevendays/assets/76970535/88fad598-9bff-49fe-a3f7-2cb8e9bdbc6f" width=250 />
-  <img src="https://github.com/fadillahzx404/sevendays/assets/76970535/15d6c558-91ab-4168-964b-b60619a417b1" width=250 />
+  <img src="https://github.com/fadillahzx404/sevendays/assets/76970535/190db0a5-8439-48a5-8140-7c2face1cd52" width=250 />
 </p>
-
 
 
 Thanks you for your time to see my project see you !!
