@@ -2,38 +2,47 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class SecondRandom extends StatelessWidget {
+  const SecondRandom({Key? key}) : super(key: key);
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Column(
+      appBar: AppBar(
+        title: const Text(
+          'Second Random',
+        ),
+      ),
+      body: ListView(
         children: [
           Image.asset(
             'assets/images/cover_random.png',
           ),
-          SizedBox(
+          const SizedBox(
             height: 20,
           ),
           Text(
             'Arrina La',
+            textAlign: TextAlign.center,
             style: GoogleFonts.poppins(
               color: Colors.black,
               fontSize: 26,
               fontWeight: FontWeight.w500,
             ),
           ),
-          SizedBox(
+          const SizedBox(
             height: 2,
           ),
           Text(
             'Bali, Dekat Bandung',
+            textAlign: TextAlign.center,
             style: GoogleFonts.poppins(
-              color: Color(0xff2F323A),
+              color: const Color(0xff2F323A),
               fontSize: 16,
               fontWeight: FontWeight.w300,
             ),
           ),
-          SizedBox(
-            height: 37,
+          const SizedBox(
+            height: 24,
           ),
           Padding(
             padding: const EdgeInsets.only(
@@ -50,18 +59,18 @@ class SecondRandom extends StatelessWidget {
                     fontWeight: FontWeight.w500,
                   ),
                 ),
-                SizedBox(
+                const SizedBox(
                   height: 6,
                 ),
                 Text(
                   'Pantai Pandawa adalah salah satu para\nkawasan wisata di area Kuta selatan sana\nKabupaten Dekat Bandung, Bali.',
                   style: GoogleFonts.poppins(
-                    color: Color(0xff2F323A),
+                    color: const Color(0xff2F323A),
                     fontSize: 16,
                     fontWeight: FontWeight.w300,
                   ),
                 ),
-                SizedBox(
+                const SizedBox(
                   height: 26,
                 ),
                 Text(
@@ -72,39 +81,48 @@ class SecondRandom extends StatelessWidget {
                     fontWeight: FontWeight.w500,
                   ),
                 ),
-                Row(
-                  children: [
-                    Image.asset(
-                      'assets/images/date_one.png',
-                      width: 80,
-                      height: 100,
-                    ),
-                    SizedBox(
-                      width: 20,
-                    ),
-                    Image.asset(
-                      'assets/images/date_two.png',
-                      width: 80,
-                      height: 100,
-                    ),
-                    SizedBox(
-                      width: 20,
-                    ),
-                    Image.asset(
-                      'assets/images/date_three.png',
-                      width: 80,
-                      height: 100,
-                    ),
-                    SizedBox(
-                      width: 20,
-                    ),
-                    Image.asset(
-                      'assets/images/date_four.png',
-                      width: 80,
-                      height: 100,
-                    ),
-                  ],
-                )
+                const SizedBox(
+                  height: 12,
+                ),
+                SingleChildScrollView(
+                  scrollDirection: Axis.horizontal,
+                  child: Row(
+                    children: [
+                      Image.asset(
+                        'assets/images/date_one.png',
+                        width: 80,
+                        height: 100,
+                      ),
+                      const SizedBox(
+                        width: 20,
+                      ),
+                      Image.asset(
+                        'assets/images/date_two.png',
+                        width: 80,
+                        height: 100,
+                      ),
+                      const SizedBox(
+                        width: 20,
+                      ),
+                      Image.asset(
+                        'assets/images/date_three.png',
+                        width: 80,
+                        height: 100,
+                      ),
+                      const SizedBox(
+                        width: 20,
+                      ),
+                      Image.asset(
+                        'assets/images/date_four.png',
+                        width: 80,
+                        height: 100,
+                      ),
+                    ],
+                  ),
+                ),
+                SizedBox(
+                  height: 36,
+                ),
               ],
             ),
           ),
@@ -112,10 +130,10 @@ class SecondRandom extends StatelessWidget {
       ),
       bottomNavigationBar: Padding(
         padding: const EdgeInsets.only(
-          right: 20,
+          top: 10,
         ),
         child: BottomNavigationBar(
-          elevation: 0,
+          elevation: 1,
           type: BottomNavigationBarType.fixed,
           items: <BottomNavigationBarItem>[
             BottomNavigationBarItem(
@@ -125,7 +143,7 @@ class SecondRandom extends StatelessWidget {
                   Text(
                     '\$22,800',
                     style: GoogleFonts.poppins(
-                      color: Color(0xff3F6DF6),
+                      color: const Color(0xff3F6DF6),
                       fontSize: 22,
                       fontWeight: FontWeight.w500,
                     ),
@@ -133,7 +151,7 @@ class SecondRandom extends StatelessWidget {
                   Text(
                     '/night',
                     style: GoogleFonts.poppins(
-                      color: Color(0xff2F323A),
+                      color: const Color(0xff2F323A),
                       fontSize: 12,
                       fontWeight: FontWeight.w300,
                     ),
@@ -143,23 +161,26 @@ class SecondRandom extends StatelessWidget {
               label: '',
             ),
             BottomNavigationBarItem(
-              icon: Container(
-                height: 60,
-                width: 220,
-                child: TextButton(
-                  style: TextButton.styleFrom(
-                    backgroundColor: Color(0xff3F6DF6),
-                    shape: RoundedRectangleBorder(
-                      borderRadius: BorderRadius.circular(19),
+              icon: SizedBox(
+                height: 50,
+                width: MediaQuery.of(context).size.width,
+                child: Padding(
+                  padding: const EdgeInsets.only(right: 20),
+                  child: TextButton(
+                    style: TextButton.styleFrom(
+                      backgroundColor: const Color(0xff3F6DF6),
+                      shape: RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(19),
+                      ),
                     ),
-                  ),
-                  onPressed: () {},
-                  child: Text(
-                    'Continue',
-                    style: GoogleFonts.poppins(
-                        color: Color(0xffFAFAFA),
-                        fontSize: 18,
-                        fontWeight: FontWeight.w600),
+                    onPressed: () {},
+                    child: Text(
+                      'Continue',
+                      style: GoogleFonts.poppins(
+                          color: const Color(0xffFAFAFA),
+                          fontSize: 18,
+                          fontWeight: FontWeight.w600),
+                    ),
                   ),
                 ),
               ),

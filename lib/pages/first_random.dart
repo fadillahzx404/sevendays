@@ -2,7 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:sevendays/widgets/cart_list.dart';
 
-class FristRandom extends StatelessWidget {
+class FirstRandom extends StatelessWidget {
+  const FirstRandom({Key? key}) : super(key: key);
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(

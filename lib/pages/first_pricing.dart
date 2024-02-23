@@ -1,12 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-class FristPricing extends StatefulWidget {
+class FirstPricing extends StatefulWidget {
+  const FirstPricing({Key? key}) : super(key: key);
+
   @override
-  State<FristPricing> createState() => _FristPricingState();
+  State<FirstPricing> createState() => _FirstPricingState();
 }
 
-class _FristPricingState extends State<FristPricing> {
+class _FirstPricingState extends State<FirstPricing> {
   int selectedIndex = -1;
   @override
   Widget build(BuildContext context) {

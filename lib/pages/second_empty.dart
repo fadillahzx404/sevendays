@@ -2,27 +2,43 @@ import 'package:flutter/material.dart';
 import 'package:sevendays/widgets/theme.dart';
 
 class SecondEmpty extends StatelessWidget {
+  const SecondEmpty({Key? key}) : super(key: key);
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color(0xff1B1B33),
+      backgroundColor: const Color(0xff1B1B33),
+      appBar: AppBar(
+        iconTheme: const IconThemeData(
+          color: Colors.white,
+        ),
+        backgroundColor: const Color(0xff1B1B33),
+        elevation: 0.0,
+        title: const Text(
+          'Second Empty',
+          style: TextStyle(
+            color: Colors.white,
+          ),
+        ),
+      ),
       body: Column(
         children: [
           Center(
             child: Image.asset(
               'assets/images/chart_illustration.png',
               width: 375,
-              height: 454,
+              height: 375,
+              fit: BoxFit.fill,
             ),
           ),
-          SizedBox(
+          const SizedBox(
             height: 68,
           ),
           Text(
             'Boost Profit !',
             style: titleTextStyle,
           ),
-          SizedBox(
+          const SizedBox(
             height: 16,
           ),
           Text(
@@ -30,11 +46,11 @@ class SecondEmpty extends StatelessWidget {
             style: descriptionTextStyle,
             textAlign: TextAlign.center,
           ),
-          SizedBox(
+          const SizedBox(
             height: 60,
           ),
-          InkWell(
-            onTap: () {},
+          TextButton(
+            onPressed: () {},
             child: Image.asset(
               'assets/images/rocket_btn.png',
               width: 65,

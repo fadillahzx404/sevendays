@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:sevendays/widgets/theme.dart';
 
-class FristEmpty extends StatelessWidget {
+class FirstEmpty extends StatelessWidget {
+  const FirstEmpty({Key? key}) : super(key: key);
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(

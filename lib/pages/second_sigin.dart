@@ -1,10 +1,17 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-class SecondSigin extends StatelessWidget {
+class SecondSignin extends StatelessWidget {
+  const SecondSignin({Key? key}) : super(key: key);
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        title: const Text(
+          'Second Sign In',
+        ),
+      ),
       body: Padding(
         padding: const EdgeInsets.only(
           top: 64,
@@ -18,82 +25,85 @@ class SecondSigin extends StatelessWidget {
               Center(
                 child: Image.asset(
                   'assets/images/paper_icon.png',
-                  width: 245,
-                  height: 279,
+                  width: 200,
+                  height: 200,
+                  fit: BoxFit.fill,
                 ),
               ),
-              SizedBox(
+              const SizedBox(
                 height: 53,
               ),
               Text(
                 'Email Address',
                 style: GoogleFonts.openSans(
-                  color: Color(
+                  color: const Color(
                     0xff17171A,
                   ),
+                  fontSize: 16,
                 ),
               ),
-              SizedBox(
+              const SizedBox(
                 height: 6,
               ),
               TextFormField(
                 style: GoogleFonts.openSans(
-                  color: Color(0xff17171A),
-                  fontSize: 16,
+                  color: const Color(0xff17171A),
+                  fontSize: 18,
                   fontWeight: FontWeight.w600,
                 ),
                 decoration: InputDecoration(
-                  fillColor: Color(0xffF3F3F3),
+                  fillColor: const Color(0xffF3F3F3),
                   filled: true,
+                  hintText: 'Email',
                   border: OutlineInputBorder(
                     borderRadius: BorderRadius.circular(71),
                     borderSide: BorderSide.none,
                   ),
-                  hintText: 'Email',
                   contentPadding: const EdgeInsets.only(left: 20),
                 ),
               ),
-              SizedBox(
+              const SizedBox(
                 height: 20,
               ),
               Text(
                 'Password',
                 style: GoogleFonts.openSans(
-                  color: Color(
+                  color: const Color(
                     0xff17171A,
                   ),
+                  fontSize: 16,
                 ),
               ),
-              SizedBox(
+              const SizedBox(
                 height: 6,
               ),
               TextFormField(
                 obscureText: true,
                 style: GoogleFonts.openSans(
-                  color: Color(0xff17171A),
-                  fontSize: 16,
+                  color: const Color(0xff17171A),
+                  fontSize: 18,
                   fontWeight: FontWeight.w600,
                 ),
                 decoration: InputDecoration(
-                    fillColor: Color(0xffF3F3F3),
+                    fillColor: const Color(0xffF3F3F3),
                     filled: true,
                     border: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(71),
                       borderSide: BorderSide.none,
                     ),
                     hintText: 'Password',
-                    contentPadding: EdgeInsets.only(left: 20)),
+                    contentPadding: const EdgeInsets.only(left: 20)),
               ),
-              SizedBox(
+              const SizedBox(
                 height: 50,
               ),
               Center(
-                child: Container(
+                child: SizedBox(
                   height: 55,
-                  width: 330,
+                  width: MediaQuery.of(context).size.width,
                   child: TextButton(
                     style: TextButton.styleFrom(
-                      backgroundColor: Color(0xff5468FF),
+                      backgroundColor: const Color(0xff5468FF),
                       shape: RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(60),
                       ),
@@ -102,7 +112,7 @@ class SecondSigin extends StatelessWidget {
                     child: Text(
                       'Log In',
                       style: GoogleFonts.openSans(
-                        color: Color(0xffF8F8F8),
+                        color: const Color(0xffF8F8F8),
                         fontSize: 16,
                         fontWeight: FontWeight.w600,
                       ),
@@ -110,13 +120,13 @@ class SecondSigin extends StatelessWidget {
                   ),
                 ),
               ),
-              SizedBox(
+              const SizedBox(
                 height: 16,
               ),
               Center(
-                child: Container(
+                child: SizedBox(
                   height: 55,
-                  width: 320,
+                  width: MediaQuery.of(context).size.width,
                   child: OutlinedButton(
                     style: OutlinedButton.styleFrom(
                       shape: RoundedRectangleBorder(
@@ -127,7 +137,7 @@ class SecondSigin extends StatelessWidget {
                     child: Text(
                       'Create New Account',
                       style: GoogleFonts.openSans(
-                        color: Color(0xffCFCFCF),
+                        color: const Color(0xffCFCFCF),
                         fontSize: 18,
                       ),
                     ),

@@ -2,12 +2,20 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class SecondPricing extends StatelessWidget {
+  const SecondPricing({Key? key}) : super(key: key);
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        title: const Text(
+          'Second Pricing',
+        ),
+        backgroundColor: Colors.deepPurpleAccent.shade400,
+      ),
       body: Stack(children: [
         Container(
-          decoration: BoxDecoration(
+          decoration: const BoxDecoration(
             image: DecorationImage(
               image: AssetImage(
                 'assets/images/Linear_background.png',
@@ -18,7 +26,7 @@ class SecondPricing extends StatelessWidget {
         ),
         Padding(
           padding: const EdgeInsets.only(
-            top: 80.0,
+            top: 36.0,
             left: 28,
             right: 28,
           ),
@@ -30,7 +38,7 @@ class SecondPricing extends StatelessWidget {
                   width: 164,
                 ),
               ),
-              SizedBox(
+              const SizedBox(
                 height: 24,
               ),
               Text(
@@ -40,13 +48,13 @@ class SecondPricing extends StatelessWidget {
                     fontSize: 22,
                     fontWeight: FontWeight.w600),
               ),
-              SizedBox(
+              const SizedBox(
                 height: 10,
               ),
               Text(
                 'Unlock the winner modules \nand get more insight',
                 style: GoogleFonts.poppins(
-                  color: Color(0xff7F7FAD),
+                  color: const Color(0xff7F7FAD),
                   fontSize: 16,
                 ),
                 textAlign: TextAlign.center,
@@ -65,7 +73,7 @@ class SecondPricing extends StatelessWidget {
                           'assets/images/orange_check.png',
                           width: 26,
                         ),
-                        SizedBox(
+                        const SizedBox(
                           width: 12,
                         ),
                         Text(
@@ -77,7 +85,7 @@ class SecondPricing extends StatelessWidget {
                         ),
                       ],
                     ),
-                    SizedBox(
+                    const SizedBox(
                       height: 26,
                     ),
                     Row(
@@ -86,7 +94,7 @@ class SecondPricing extends StatelessWidget {
                           'assets/images/orange_check.png',
                           width: 26,
                         ),
-                        SizedBox(
+                        const SizedBox(
                           width: 12,
                         ),
                         Text(
@@ -98,7 +106,7 @@ class SecondPricing extends StatelessWidget {
                         ),
                       ],
                     ),
-                    SizedBox(
+                    const SizedBox(
                       height: 26,
                     ),
                     Row(
@@ -107,7 +115,7 @@ class SecondPricing extends StatelessWidget {
                           'assets/images/orange_check.png',
                           width: 26,
                         ),
-                        SizedBox(
+                        const SizedBox(
                           width: 12,
                         ),
                         Text(
@@ -119,7 +127,7 @@ class SecondPricing extends StatelessWidget {
                         ),
                       ],
                     ),
-                    SizedBox(
+                    const SizedBox(
                       height: 26,
                     ),
                     Row(
@@ -128,7 +136,7 @@ class SecondPricing extends StatelessWidget {
                           'assets/images/orange_check.png',
                           width: 26,
                         ),
-                        SizedBox(
+                        const SizedBox(
                           width: 12,
                         ),
                         Text(
@@ -140,17 +148,17 @@ class SecondPricing extends StatelessWidget {
                         ),
                       ],
                     ),
-                    SizedBox(
-                      height: 58,
+                    const SizedBox(
+                      height: 36,
                     ),
-                    Container(
+                    SizedBox(
                       width: 319,
                       height: 55,
                       child: TextButton(
                         style: TextButton.styleFrom(
-                          shadowColor: Color(0xffE57C73),
+                          shadowColor: const Color(0xffE57C73),
                           elevation: 20,
-                          backgroundColor: Color(0xffE57C73),
+                          backgroundColor: const Color(0xffE57C73),
                           shape: RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(31),
                           ),
@@ -158,20 +166,19 @@ class SecondPricing extends StatelessWidget {
                         onPressed: () {},
                         child: Padding(
                           padding: const EdgeInsets.only(
-                            left: 80,
-                            right: 7,
+                            left: 8,
+                            right: 8,
                           ),
                           child: Row(
                             mainAxisAlignment: MainAxisAlignment.spaceBetween,
                             children: [
-                              Center(
-                                child: Text(
-                                  'Subscribe Now',
-                                  style: GoogleFonts.poppins(
-                                    color: Colors.white,
-                                    fontSize: 16,
-                                    fontWeight: FontWeight.w600,
-                                  ),
+                              Text(
+                                'Subscribe Now',
+                                textAlign: TextAlign.start,
+                                style: GoogleFonts.poppins(
+                                  color: Colors.white,
+                                  fontSize: 16,
+                                  fontWeight: FontWeight.w600,
                                 ),
                               ),
                               Image.asset(
@@ -182,7 +189,7 @@ class SecondPricing extends StatelessWidget {
                         ),
                       ),
                     ),
-                    SizedBox(
+                    const SizedBox(
                       height: 20,
                     ),
                     Text(

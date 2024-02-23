@@ -1,24 +1,36 @@
 import 'package:flutter/material.dart';
 import 'package:sevendays/widgets/theme.dart';
 
-class RatingFrist extends StatelessWidget {
+class FirstRating extends StatelessWidget {
+  const FirstRating({Key? key}) : super(key: key);
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color(0xff181925),
+      appBar: AppBar(
+        title: const Text(
+          'First Rating',
+          style: TextStyle(
+            color: Colors.white,
+          ),
+        ),
+        iconTheme: const IconThemeData(color: Colors.white),
+        backgroundColor: const Color(0xff181925),
+      ),
+      backgroundColor: const Color(0xff181925),
       body: Padding(
         padding: const EdgeInsets.only(left: 38, right: 38, top: 20.0),
         child: Center(
           child: Column(
             children: [
-              SizedBox(
+              const SizedBox(
                 height: 80,
               ),
               Image.asset(
                 'assets/images/pizza.png',
                 width: 200,
               ),
-              SizedBox(
+              const SizedBox(
                 height: 20,
               ),
               Text(
@@ -29,8 +41,8 @@ class RatingFrist extends StatelessWidget {
                 '\$90,00',
                 style: DolarTextStyle,
               ),
-              SizedBox(
-                height: 90,
+              const SizedBox(
+                height: 60,
               ),
               Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
@@ -39,58 +51,103 @@ class RatingFrist extends StatelessWidget {
                     'Was it delicious?',
                     style: questionTextStyle,
                   ),
-                  SizedBox(
-                    height: 20,
+                  const SizedBox(
+                    height: 30,
                   ),
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
-                      Image.asset(
-                        'assets/images/emoji_one.png',
-                        width: 60,
+                      Container(
+                        decoration: BoxDecoration(
+                          color: Colors.black12,
+                          borderRadius: BorderRadius.circular(46),
+                        ),
+                        child: InkWell(
+                          borderRadius: BorderRadius.circular(46),
+                          onTap: () {},
+                          child: Padding(
+                            padding: const EdgeInsets.all(20),
+                            child: Image.asset(
+                              'assets/images/emoji_one.png',
+                              width: 30,
+                            ),
+                          ),
+                        ),
                       ),
-                      SizedBox(
-                        width: 20,
+                      Container(
+                        decoration: BoxDecoration(
+                          color: Colors.black12,
+                          borderRadius: BorderRadius.circular(46),
+                        ),
+                        child: InkWell(
+                          borderRadius: BorderRadius.circular(46),
+                          onTap: () {},
+                          child: Padding(
+                            padding: const EdgeInsets.all(20),
+                            child: Image.asset(
+                              'assets/images/emoji_two.png',
+                              width: 30,
+                            ),
+                          ),
+                        ),
                       ),
-                      Image.asset(
-                        'assets/images/emoji_two.png',
-                        width: 60,
+                      Container(
+                        decoration: BoxDecoration(
+                          color: Colors.black12,
+                          borderRadius: BorderRadius.circular(46),
+                        ),
+                        child: InkWell(
+                          borderRadius: BorderRadius.circular(46),
+                          onTap: () {},
+                          child: Padding(
+                            padding: const EdgeInsets.all(20),
+                            child: Image.asset(
+                              'assets/images/emoji_three.png',
+                              width: 30,
+                            ),
+                          ),
+                        ),
                       ),
-                      SizedBox(
-                        width: 20,
-                      ),
-                      Image.asset(
-                        'assets/images/emoji_three.png',
-                        width: 60,
-                      ),
-                      SizedBox(
-                        width: 20,
-                      ),
-                      Image.asset(
-                        'assets/images/emoji_four.png',
-                        width: 60,
+                      Container(
+                        decoration: BoxDecoration(
+                          color: Colors.black12,
+                          borderRadius: BorderRadius.circular(46),
+                        ),
+                        child: InkWell(
+                          borderRadius: BorderRadius.circular(46),
+                          onTap: () {},
+                          child: Padding(
+                            padding: const EdgeInsets.all(20),
+                            child: Image.asset(
+                              'assets/images/emoji_four.png',
+                              width: 30,
+                            ),
+                          ),
+                        ),
                       ),
                     ],
                   )
                 ],
               ),
-              SizedBox(
-                height: 90,
+              const SizedBox(
+                height: 40,
               ),
-              Container(
-                width: 211,
-                height: 55,
-                decoration: BoxDecoration(
-                  color: Color(0xff34D186),
-                  borderRadius: BorderRadius.circular(60),
+              TextButton(
+                style: TextButton.styleFrom(
+                  padding: EdgeInsets.all(20),
+                  backgroundColor: const Color(0xff34D186),
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(60),
+                  ),
                 ),
+                onPressed: () {},
                 child: Align(
                   child: Text(
                     'Rate Now',
                     style: rateTextStyle,
                   ),
                 ),
-              )
+              ),
             ],
           ),
         ),
